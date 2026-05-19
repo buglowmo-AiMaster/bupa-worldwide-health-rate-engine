@@ -25,7 +25,7 @@ from rates_data import (
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-API_KEY = os.environ.get("API_KEY", "bupa-worldwide-health-Mo-2026-secret")
+API_KEY = os.environ.get("API_KEY")
 
 app = FastAPI(
     title="Raffles-Bupa WHo Rate Engine",
